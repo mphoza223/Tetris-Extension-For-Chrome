@@ -1,0 +1,73 @@
+body{
+	min-width: 550px;
+	min-height: 700px;
+}
+
+.gameCanvas {
+	border: 2px solid black;
+	display: inline-block;
+}
+
+#game {
+	margin-left: 10px;
+	/*margin-top: 3%;*/
+	float: left;
+	background-color: white;
+}
+
+#controlBox {
+	width: 240px;
+	margin-left: 55%;
+	margin-right: 15px;
+}
+
+#nextBlock {
+	/*width: 240px;*/
+	/*height: 240px;*/
+	/*background-color: white;*/
+}
+
+#controls {
+	width: 240px;
+	background-color: white;
+}
+
+.ctrlButtons{
+	max-width: 40px;
+}
+
+.arrowBtns{
+	max-width: 40px;
+	min-width: 40px;
+}
+
+.playCtrls{
+	max-width: 120px;
+	/*max-height: 105px;*/
+	/*min-height: 105px;*/
+	min-width: 120px;
+
+	margin-left: -6px;
+}
+
+#leftButton{
+	z-index: 200;
+	margin-right: 10px;
+}
+#rightButton{
+	z-index: 200;
+	margin-left: 10px;
+}
+
+#blocker {
+    display: none;
+    opacity:0.8;
+}
+#gameover {
+    opacity:0.8;
+    display: none;
+}
+
+#restart {
+	display: none;
+}

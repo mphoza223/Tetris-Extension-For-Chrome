@@ -1,0 +1,39 @@
+<ion-view name="content">
+<ion-content scroll="false" class="padding"><br>   
+ <div id='game' scroll="false">
+	<canvas id="bg" class="gameCanvas" style="z-index: 1; position: absolute;"></canvas>
+	<canvas id="fg" class="gameCanvas" style="z-index: 10; position: absolute;"></canvas>
+</div>
+
+<div id='controlBox'>
+	<div id='nextBlock'>
+		<canvas id='next' class="gameCanvas"></canvas>
+	</div>
+	<div id='controls'>
+		<div style="min-height: 35px; padding: 0px; margin: 0px;">
+		<h4 id="blocker" class="calm"><b>PAUSED</b></h4>
+		<h4 id="gameover" class="assertive"><b>GAME OVER</b></h4>
+		</div>
+		<img id='start' class="ctrlButtons" src="images/start.png">
+		<img id='pause' class="ctrlButtons" style="display: none;" src="images/pause.png">
+        <img id='restart' class="ctrlButtons" src="images/restart.png">
+		<br>
+		<h4>level: <span id='numLevel'>1</span></h4>
+		<h4>score: <span id='numScore'>0</span></h4>
+	</div>
+	<p>
+		<h4 class="balanced"><b>Controls: </b></h4>
+		<span class="royal">Arrow up</span> -> <b>Rotate</b><br>
+		<span class="royal">Arrow left</span> -> <b>Move left</b><br>
+		<span class="royal">Arrow right</span> -> <b>Move right</b><br>
+		<span class="royal">Arrow down</span> -> <b>Move down</b><br>
+		<span class="royal">Space-bar</span> -> <b>flush down</b> 
+	</p><br>
+	<img src="assets/icon128.png" style="max-height: 70px; max-width: relative;">
+</div>
+<div  style="position: absolute; bottom: 5px; padding-left: 20%; font-size: 1.2em;" align="center">
+<p class="assertive"><b>Get in touch: &nbsp;&nbsp;<span class="dark">mphothedev@gmail.com</span></b></p>
+</div>
+ </ion-content>
+</ion-view>
+
