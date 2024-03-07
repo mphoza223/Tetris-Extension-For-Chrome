@@ -38,8 +38,7 @@ var ClassicalTetris = angular.module('ClassicalTetris', ['ionic'])
     .state('app',{
       url: '/app',
       abstract: true,
-      templateUrl: 'templates/app.html',
-      disableHardwareBackButton : true
+      templateUrl: 'templates/app.html'
     })
     .state('app.home',{
       url: '/home',
