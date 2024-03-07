@@ -34,7 +34,6 @@ var ClassicalTetris = angular.module('ClassicalTetris', ['ionic'])
 .config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
   
   $stateProvider
-
     .state('app',{
       url: '/app',
       abstract: true,
