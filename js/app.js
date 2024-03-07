@@ -46,7 +46,6 @@ var ClassicalTetris = angular.module('ClassicalTetris', ['ionic'])
       views:{
         'content': {
           templateUrl: 'templates/home.html',
-          disableHardwareBackButton : true,
           controller:  'homeCtrl'
         }
       }
